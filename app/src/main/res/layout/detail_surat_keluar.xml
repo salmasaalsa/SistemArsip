@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:src="@mipmap/ic_launcher"
+               android:layout_gravity="center"
+               android:id="@+id/gambar_surat_keluar"/>
+
+    <TableLayout
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablelayoutid_keluar"
+            android:layout_marginTop="10dp">
+
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No Surat" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="111"
+                    android:id="@+id/no_surat_keluar"
+            />
+        </TableRow>
+
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="kode" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kode"
+                    android:id="@+id/kode_surat_keluar"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No Agenda" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No Agenda"
+                    android:id="@+id/no_agenda_keluar"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asal Surat" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asal Surat"
+                    android:id="@+id/tujuan_surat_keluar"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tanggal Surat" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asal Surat"
+                    android:id="@+id/tgl_surat_keluar"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tanggal Catat" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asal Surat"
+                    android:id="@+id/tgl_catat"
+            />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

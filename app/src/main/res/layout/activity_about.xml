@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:background="#73000000"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:layout_height="200dp">
+        <TextView
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:text="Sistem Informasi Arsip Surat adalah merupakan sebuah aplikasi berbasis web yang menyediakan kebutuhan untuk mengatur tata kelola surat menyurat dan pengaturan data arsip surat. Dengan menggunakan aplikasi surat ini, pengguna dapat mendata masuk dan surat keluar dengan cepat dan mudah."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

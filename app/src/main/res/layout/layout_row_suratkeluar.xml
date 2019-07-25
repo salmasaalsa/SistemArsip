@@ -17,8 +17,8 @@
     >
         <TextView android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-                  android:text="Tujuan"
-                  android:id="@+id/tujuan_surat"
+                  android:text="ASAL SURAT"
+                  android:id="@+id/asal_surat"
                   android:textSize="25sp"
         />
         <TextView android:layout_width="match_parent"
@@ -29,9 +29,9 @@
         />
         <TextView android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-                  android:text="Tanggal Surat"
+                  android:text="Tanggal Terima"
                   android:textSize="15sp"
-                  android:id="@+id/tgl_surat"
+                  android:id="@+id/tgl_terima"
                   android:textAlignment="textEnd"
         />
     </LinearLayout>

@@ -2,6 +2,7 @@ package com.example.sistemarsip
 
 import android.content.Context
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.*
@@ -20,11 +21,10 @@ class ActivityHomeScreen : AppCompatActivity() {
         setContentView(R.layout.activity_home_screen)
 
         // load foods
-        homeAdapter.add(HomeScreenAdapter("Jumlah Surat Masuk", R.drawable.masuk))
-        homeAdapter.add(HomeScreenAdapter("Jumlah Surat Keluar", R.drawable.keluar))
-        homeAdapter.add(HomeScreenAdapter("Jumlah Disposisi", R.drawable.disposisi))
-        homeAdapter.add(HomeScreenAdapter("Jumlah Klarifikasi Surat", R.drawable.klarifikasi))
-        homeAdapter.add(HomeScreenAdapter("Jumlah User Aktif", R.drawable.pengguna))
+        homeAdapter.add(HomeScreenAdapter(" Surat Masuk", R.drawable.masuk))
+        homeAdapter.add(HomeScreenAdapter("Surat Keluar", R.drawable.keluar))
+        homeAdapter.add(HomeScreenAdapter("Disposisi", R.drawable.disposisi))
+        homeAdapter.add(HomeScreenAdapter("Info", R.drawable.info))
         adapter = ImageAdapter(this, homeAdapter)
 
         gvHome.adapter = adapter
@@ -42,26 +42,13 @@ class ActivityHomeScreen : AppCompatActivity() {
                 val intent = Intent(this, ActivityJumlahDisposisi::class.java)
                 startActivity(intent)
             } else if (position == 3) {
-//                Toast.makeText(this, "Anda memilih: 3", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, ActivityJumlahKlarifikasi::class.java)
-                startActivity(intent)
-            } else if (position == 4) {
-//                Toast.makeText(this, "Anda memilih: 3", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, ActivityJumlahUserAktif::class.java)
+                //Toast.makeText(this, "Anda memilih: 2", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             }
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        getMenuInflater().inflate(R.menu.home_menu, menu);
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        startActivity(Intent(this, MainActivity::class.java))
-        return super.onOptionsItemSelected(item)
-    }
 
 
     class ImageAdapter : BaseAdapter {

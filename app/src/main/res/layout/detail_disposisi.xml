@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TableLayout
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablelayoutid_disposisi"
+            android:layout_marginTop="10dp">
+
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tujuan Surat" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="111"
+                    android:id="@+id/tujuan_surat_disposisi"
+            />
+        </TableRow>
+
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Isi Disposisi" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Isi Disposisi"
+                    android:id="@+id/isi_disposisi"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sifat" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sifat"
+                    android:id="@+id/sifat_disposisi"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Batas Waktu" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Batas Waktu"
+                    android:id="@+id/batas_waktu"
+            />
+        </TableRow>
+        <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Catatan" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Catatan"
+                    android:id="@+id/catatan"
+            />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
